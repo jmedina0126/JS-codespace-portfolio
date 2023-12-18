@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "Consultancy website",
-    description:
-      "Created a mock consultancy website using HTML, CSS and JavaScript.",
+    description: "Created a mock consultancy website using HTML, CSS and JavaScript.",
     url: "https://jmedina0126.github.io/Consultancy-Business/",
   },
   {
@@ -50,8 +49,7 @@ const projectList = [
   },
   {
     title: "Arborist website",
-    description:
-      "Mock arborist website ",
+    description: "Mock arborist website ",
     url: "https://jmedina0126.github.io/MediciLignum/",
   },
 ];
