@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'https://{jmedina0126}.github.io/{JS-codespace-project}'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

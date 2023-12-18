@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "As a website manager and data analyst, I bring a unique blend of technical expertise and organizational skills to drive innovation and deliver effective solutions. With two years of experience in the tech industry and a background as a self-taught web developer, I am committed to continuous learning and making a positive impact. In my previous role as a Datix Support Administrator, I efficiently managed administrative tasks, ensuring data integrity and system reliability. With a focus on user-centric design and JavaScript development, I gained insights into scalable, user-friendly applications. Beyond technical skills, my background as an arborist and hospitality experience have provided a well-rounded perspective, allowing me to approach problems creatively. I am expanding my expertise in SQL through mentorship with a senior Data Engineer. I am passionate about using my technical and administrative skills to contribute to meaningful projects and make a positive impact in the world.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
