@@ -9,6 +9,7 @@
  */
 
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 /**
  * Desk image
@@ -55,14 +56,26 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
+            ref={ref}
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              opacity: inView ? 1 : 0,
+              transition: "opacity 1s",
+              animation: inView ? "500ms ease-out 0s 1 slideIn" : "",
+            }}
             alt={imageAltText}
           />
         </div>
