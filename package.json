@@ -1,13 +1,13 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "react Codespace Portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "React Codespace Portfolio for Jemar's Web Development work",
   "source": "src/index.html",
-  "homepage": "https://jmedina0126.github.io/JS-codespace-project",
+  "homepage": "https://jmedina0126.github.io/JS-codespace-portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://jmedina0126.github.io/JS-codespace-project'",
+    "build-gh": "parcel build --public-url 'https://jmedina0126.github.io/JS-codespace-portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
