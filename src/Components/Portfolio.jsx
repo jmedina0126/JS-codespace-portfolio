@@ -44,9 +44,8 @@ const projectList = [
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "",
+    description: "My first website created using HTML, CSS and JavaScript.",
+    url: "https://japexwebservices.netlify.app",
   },
   {
     title: "Arborist website",
