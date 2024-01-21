@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Jemar Medina",
-  title: "Website manager and Data analyst",
+  title: "front-end developer and content creator",
   email: "j.medina0126@gmail.com",
   gitHub: "https://github.com/jmedina0126/",
   linkedIn: "https://www.linkedin.com/in/jemar-medina/",
