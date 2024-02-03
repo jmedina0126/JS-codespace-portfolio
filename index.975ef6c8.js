@@ -27088,7 +27088,7 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Jemar Medina",
-    title: "Web Designer & Content Creator",
+    title: "front-end developer and content creator",
     email: "j.medina0126@gmail.com",
     gitHub: "https://github.com/jmedina0126/",
     linkedIn: "https://www.linkedin.com/in/jemar-medina/",
@@ -27181,7 +27181,7 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "As a website manager and data analyst, I bring a unique blend of technical expertise and organizational skills to drive innovation and deliver effective solutions. With two years of experience in the tech industry and a background as a self-taught web developer, I am committed to continuous learning and making a positive impact. In my previous role as a Datix Support Administrator, I efficiently managed administrative tasks, ensuring data integrity and system reliability. With a focus on user-centric design and JavaScript development, I gained insights into scalable, user-friendly applications. Beyond technical skills, my background as an arborist and hospitality experience have provided a well-rounded perspective, allowing me to approach problems creatively. I am expanding my expertise in SQL through mentorship with a senior Data Engineer. I am passionate about using my technical and administrative skills to contribute to meaningful projects and make a positive impact in the world.";
+ */ const description = "As a Front-End Developer and Content Creator, I bring a distinctive fusion of creative flair and technical proficiency, enriched by my background as a Data Analyst and Website Manager. With a foundation rooted in two years of tech industry experience and self-driven web development, my commitment to continual growth and positive contribution is unwavering. In my tenure as a Datix Support Administrator, I not only ensured the seamless operation and data integrity of systems but also harnessed my skills in user-centric design and JavaScript to develop scalable, intuitive applications. My journey extends beyond the realm of tech; having worked in both the education and the healthcare sector, I've cultivated a diverse and innovative approach to problem-solving. This varied experience allows me to view challenges through a unique lens, infusing creativity into every solution. Currently, I'm enhancing writing capabilities by writing a blog based on my learning over teh years and to fortify my current learning. As a Front-End Developer, my goal is to blend this rich tapestry of experiences to create compelling, engaging content and robust, user-friendly web applications. I am passionate about leveraging my blend of analytical prowess and creative energy to contribute to impactful projects, driving change and leaving a positive imprint in the digital landscape.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -27191,7 +27191,10 @@ const imageAltText = "purple and blue abstract background";
     "Inclusive design",
     "Focus group testing",
     "Mobile user interfaces",
-    "Graphic design", 
+    "Graphic design",
+    "content creation",
+    "SEO and web accessibility",
+    "Html, css, javascript", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
@@ -27209,13 +27212,14 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    backgroundColor: "white",
+                    backgroundColor: "rgba(255, 255, 255, 0.6)",
                     width: "50%",
+                    borderRadius: "1rem",
                     padding: "4rem",
                     margin: "3rem auto",
                     textAlign: "center"
@@ -27225,7 +27229,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27233,12 +27237,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27253,17 +27257,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27273,19 +27277,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 56,
         columnNumber: 5
     }, undefined);
 };
@@ -28772,8 +28776,8 @@ const imageAltText = "desktop with books and laptop";
     },
     {
         title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: ""
+        description: "My first website created using HTML, CSS and JavaScript.",
+        url: "https://japexwebservices.netlify.app/"
     },
     {
         title: "Arborist website",
@@ -28797,7 +28801,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 65,
+                lineNumber: 64,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28826,12 +28830,12 @@ const Portfolio = ()=>{
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 68,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 67,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28850,12 +28854,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 85,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28863,30 +28867,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 84,
+                                lineNumber: 83,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 82,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 66,
+                lineNumber: 65,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 64,
+        lineNumber: 63,
         columnNumber: 5
     }, undefined);
 };
