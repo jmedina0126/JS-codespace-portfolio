@@ -45,7 +45,7 @@ const projectList = [
   {
     title: "My Resume Site",
     description: "My first website created using HTML, CSS and JavaScript.",
-    url: "https://japexwebservices.netlify.app",
+    url: "https://japexwebservices.netlify.app/",
   },
   {
     title: "Arborist website",
