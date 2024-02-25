@@ -2,6 +2,9 @@
 
 Welcome to the repository of my personal web development portfolio, showcasing my journey and accomplishments as a front-end web developer. This website is a reflection of my passion for coding, my proficiency in various web technologies, and my commitment to continuous learning and improvement in the field of web development.
 
+## Link
+https://jmedina0126.github.io/JS-codespace-portfolio/
+
 ## :information_source: About the Portfolio
 
 The JS Codespace Portfolio is designed to demonstrate my skills in HTML, CSS, and JavaScript, along with a glimpse into my projects and experiences in the tech industry. This portfolio serves not only as a showcase of my work but also as a platform for potential collaborations and opportunities.
